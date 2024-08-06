@@ -1,0 +1,25 @@
+{
+  "name": "cybercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "register": "ts-node src/register.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@dad1909/cybersoda": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "kafkajs": "^2.2.4"
+  }
+}
